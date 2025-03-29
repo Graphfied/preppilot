@@ -1,0 +1,19 @@
+study_pipeline:
+  description: Extract a structured list of chapters and topics from the provided syllabus.
+  expected_output: A JSON array detailing the chapters and their respective topics.
+  agent: syllabus_reader
+
+summarize_topics:
+  description: Summarize all topics into short bullet-point notes.
+  expected_output: A nested dictionary of chapters -> topics -> bullet summaries.
+  agent: topic_summarizer
+
+generate_mcqs:
+  description: Generate 4–5 MCQs per topic using the topic structure.
+  expected_output: A JSON object containing all chapters and topic-wise MCQs.
+  agent: mcq_master
+
+mock_exam:
+  description: Conduct a mock test from generated MCQs and evaluate answers.
+  expected_output: Score, user answers, and correct answers with performance summary.
+  agent: mock_tester

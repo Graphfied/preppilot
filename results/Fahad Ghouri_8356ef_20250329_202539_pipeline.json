@@ -1,0 +1,137 @@
+{
+  "syllabus": "March 2023 - Present\nCutting Edge Development Teacher Governor Sindh Initiative\nA201 Block 12 Gulistan-e-Johar Karachi, Pakistan |  graphfied@gmail.com | www.linkedin.com/in/fah\nadhghouri\nA seasoned tech professional with 7+ years of experience as a Full Stack Developer, Fivem Server Specialist, and AI Agentic Architect. Spearheaded over 1,300 successful server deployments, educated 3,500+ students in cutting-edge technologies, and consistently delivered scalable, innovative solutions across web, AI, and blockchain domains. Recognized for blending technical expertise with strategic vision to drive impactful outcomes.\nJan 2023 - Aug 2024\nAI Agentic Development\nAndroid App Developement\nInteraction Design\nModern full stack web app\nServers Management\nCloud-based AI Systems\n     AREA OF EXPERTISE\nEducation Initiative: Trained 3,500+ students for free through Pakistan\u2019s government initiative, fostering innovation and contributing to national growth.\nFreelancing Success: Generated $5,000 in the first month as a freelancer, helping build FiveM\u2019s global developer ecosystem at age 16\nAndroid App Developement\nInteraction Design\nModern full stack web app\nSpearheaded the delivery of 1 blockchain Marketplace project with a primary focus on scalability and security, Led end-to-end development for 20+ full-stack Projects ,Collaborated with cross-functional teams, reducing project delivery timelines by 15%.\nCloud-based AI Systems\n     KEY ACHIEVEMENTS\nEesigned and delivered interactive training programs, educating 3,500+ students in Generative AI, Web3, an\nd Metaverse technologies.\nFostered career-ready skills, achieving an 80% job placement rate among participants.\nMarch 2017 - Dec 2022\nUpwork (Freelancer - Game Development)\nCreated over 28 custom games with optimized user experiences, achieving a 98% client retention\n rate.\nGenerated $30,000+ in revenue through customized game development solutions.\nMarch 2020 - Dec 2022\nDiscord (Bot Developer)\nBuilt and deployed 15+ bots, automating server functionalities and boosting engagement by 30%.\nDelivered scalable bot solutions tailored to unique client needs.\nMarch 2017 - Dec 2024\nCfx.re (Fivem Server Developer)\nDelivered 1,300+ custom FiveM servers, generating over $22,000 in revenue for gaming\n communities.\nDeveloped ESX framework, enabling global adoption by FiveM developers.\nMarch 2021 - Present\nFiverr (Freelance Web Developer)\nDelivered responsive and user-friendly web applications for diverse clients.\nProvided end-to-end solutions from design to deployment.\nMaintained a consistent record of high-rated customer satisfaction.\nLanguages: Urdu(Native), English(Fluent), Japanese(Recently Start\u2019s Learning)\nCertifications: Google Analytics Certification, Google Soft Skills Program , Generative AI for\nEveryone \nAwards/Activities: I earned a 100% score in Python and Next.js coding exams at my institute, PIAIC,\nand won a random coding challenge at TECKNOFEST Pakistan. Currently, I am competing in\nLABLAB.AI hackathon challenges to further refine my skills.\nCertified AI Agentic Architect: Expertise in designing AI-powered agentic systems. LLMS/ AIML\nPIAIC (Certified Cloud Applied GenerativeAI Engineer )\nProficient in cloud-based generative AI solutions.\nProficient in cloud-based generative AI solutions.\nFine-Tuning LLMS / ML\nPIAIC (Certified AI Agentic Architect)\nCertified AI Agentic Architect: Expertise in designing AI-powered agentic systems. LLMS/ AIML\n Specialized in modern Web3 and Metaverse technologies.\n     ADDITIONAL INFORMATION\n May 2021- May 2023\nFocused on software development and computer systems.\n Specialized in modern Web3 and Metaverse technologies.\n Nov 2023- Nov 2026\nEngineering (Intermediate): Studied foundational engineering concepts\nFocused on software development and computer systems.\n2015 - 2017\nBiology (Matriculation): Completed secondary education with a focus on biology\nEngineering (Intermediate): Studied foundational engineering concepts\nLanguages: Urdu(Native), English(Fluent), Japanese(Recently Start\u2019s Learning)\nCertifications: Google Analytics Certification, Google Soft Skills Program , Generative AI for Everyone \nBwards/Activities: I earned a 100% score in Python and Next.js coding exams at my institute, PIAIC, and won a random coding challenge at TECKNOFEST Pakistan. Currently, I am competing in LABLAB.AI hackathon challenges to further refine my skills.\n",
+  "structured_topics": [
+    {
+      "chapter": "AI Agentic Development",
+      "topics": [
+        "Cloud-based AI Systems",
+        "Fine-Tuning LLMS / ML",
+        "Designing AI-powered agentic systems",
+        "Generative AI"
+      ]
+    },
+    {
+      "chapter": "Android App Development",
+      "topics": []
+    },
+    {
+      "chapter": "Interaction Design",
+      "topics": []
+    },
+    {
+      "chapter": "Modern Full Stack Web App Development",
+      "topics": []
+    },
+    {
+      "chapter": "Servers Management",
+      "topics": []
+    },
+    {
+      "chapter": "Web3 and Metaverse Technologies",
+      "topics": []
+    }
+  ],
+  "summaries": {
+    "AI Agentic Development": {
+      "Cloud-based AI Systems": [
+        "Explore the advantages of using cloud platforms for AI development and deployment.",
+        "Discuss scalability, cost-effectiveness, and resource management in cloud-based AI systems."
+      ],
+      "Fine-Tuning LLMs / ML": [
+        "Learn techniques for adapting pre-trained large language models (LLMs) and machine learning (ML) models to specific tasks.",
+        "Understand the process of fine-tuning, including data preparation, model selection, and evaluation."
+      ],
+      "Designing AI-powered agentic systems": [
+        "Focus on designing AI systems that exhibit goal-directed behavior and autonomy.",
+        "Explore different architectures and approaches for building intelligent agents.",
+        "Discuss challenges and ethical considerations in designing agentic AI systems."
+      ],
+      "Generative AI": [
+        "Examine the capabilities and limitations of generative AI models.",
+        "Explore applications of generative AI in various domains, such as image generation, text generation, and music composition."
+      ]
+    }
+  },
+  "mcqs": {
+    "AI Agentic Development": {
+      "Cloud-based AI Systems": [
+        {
+          "question": "Which of the following is NOT a significant advantage of using cloud-based AI systems?",
+          "options": [
+            "Scalability",
+            "Cost-effectiveness",
+            "Reduced infrastructure management",
+            "Complete data ownership"
+          ],
+          "answer": "D"
+        },
+        {
+          "question": "What is a major concern regarding the security of cloud-based AI systems?",
+          "options": [
+            "Data breaches",
+            "Lack of scalability",
+            "High infrastructure costs",
+            "Limited accessibility"
+          ],
+          "answer": "A"
+        }
+      ],
+      "Fine-Tuning LLMs / ML": [
+        {
+          "question": "What is the primary purpose of fine-tuning a pre-trained Large Language Model (LLM)?",
+          "options": [
+            "Improving general-purpose capabilities",
+            "Reducing model size",
+            "Increasing computational complexity",
+            "Adapting the model to a specific task or domain"
+          ],
+          "answer": "D"
+        },
+        {
+          "question": "Which of the following is NOT typically used in fine-tuning LLMs?",
+          "options": [
+            "Transfer learning",
+            "A large dataset of labeled data",
+            "Reinforcement learning",
+            "Random weight initialization"
+          ],
+          "answer": "D"
+        }
+      ],
+      "Designing AI-powered agentic systems": [
+        {
+          "question": "What is a key challenge in designing AI-powered agentic systems?",
+          "options": [
+            "Defining clear goals and objectives",
+            "Ensuring high computational efficiency",
+            "Selecting appropriate hardware",
+            "Maintaining model simplicity"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which aspect is crucial for the ethical development of AI-powered agentic systems?",
+          "options": [
+            "Cost optimization",
+            "Speed of execution",
+            "Transparency and explainability",
+            "Minimizing model complexity"
+          ],
+          "answer": "C"
+        }
+      ],
+      "Generative AI": [
+        {
+          "question": "Which of the following is NOT an example of a generative AI model?",
+          "options": [
+            "Generative Adversarial Networks (GANs)",
+            "Variational Autoencoders (VAEs)",
+            "Support Vector Machines (SVMs)",
+            "Diffusion models"
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  }
+}

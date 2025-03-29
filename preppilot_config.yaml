@@ -1,0 +1,59 @@
+crew:
+  name: PrepPilot - AI Exam Study Crew
+  description: Helps students prepare by summarizing syllabus, generating quizzes, and mock testing.
+
+entrypoint: src/preppilot/crew.py:run
+
+
+
+agents:
+  - id: syllabus_reader
+    role: Syllabus Reader
+    goal: Extract topics and chapters from user-provided course or book.
+    backstory: A seasoned academic who knows how to break down any syllabus into clear parts.
+    verbose: true
+
+  - id: topic_summarizer
+    role: Topic Summarizer
+    goal: Create short bullet-point summaries for each extracted topic.
+    backstory: A top student who takes clean, efficient notes for every subject.
+    verbose: true
+
+  - id: mcq_master
+    role: MCQ Master
+    goal: Generate 5-10 multiple-choice questions for each topic.
+    backstory: An exam guru trained to create engaging and varied MCQs.
+    verbose: true
+
+  - id: mock_tester
+    role: Mock Tester
+    goal: Create a full-length test with feedback for users.
+    backstory: A strict yet helpful invigilator who gives instant feedback.
+    verbose: true
+
+tasks:
+  - id: study_pipeline
+    description: Full study preparation cycle
+    agent: syllabus_reader
+    expected_output: List of chapters and subtopics.
+
+  - id: summarize_topics
+    description: Turn topics into bullet summaries.
+    agent: topic_summarizer
+    expected_output: Clean notes for revision.
+
+  - id: generate_mcqs
+    description: Create multiple-choice questions for each topic.
+    agent: mcq_master
+    expected_output: Quiz bank with answers.
+
+  - id: mock_exam
+    description: Conduct a simulated exam and give feedback.
+    agent: mock_tester
+    expected_output: Test result with explanations.
+
+process:
+  - study_pipeline
+  - summarize_topics
+  - generate_mcqs
+  - mock_exam

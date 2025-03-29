@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "chapter": "Introduction to Artificial Intelligence",
+      "topic": "History of AI",
+      "question": "The 'Logic Theorist' program, developed in the early days of AI, was primarily focused on:",
+      "options": [
+        "Playing chess",
+        "Image recognition",
+        "Proving mathematical theorems",
+        "Natural language processing"
+      ],
+      "answer": "C"
+    },
+    {
+      "chapter": "Machine Learning Basics",
+      "topic": "Unsupervised Learning",
+      "question": "Which technique is commonly used for dimensionality reduction in unsupervised learning?",
+      "options": [
+        "Linear Regression",
+        "Support Vector Machines",
+        "Principal Component Analysis",
+        "Logistic Regression"
+      ],
+      "answer": "C"
+    },
+    {
+      "chapter": "Introduction to Artificial Intelligence",
+      "topic": "Applications of AI",
+      "question": "AI-powered recommendation systems are commonly used in which industry?",
+      "options": [
+        "Healthcare",
+        "Manufacturing",
+        "E-commerce",
+        "Agriculture"
+      ],
+      "answer": "C"
+    },
+    {
+      "chapter": "Machine Learning Basics",
+      "topic": "Unsupervised Learning",
+      "question": "The main goal of unsupervised learning is to:",
+      "options": [
+        "Predict a target variable",
+        "Discover patterns and structures in data",
+        "Classify data into predefined categories",
+        "Improve the accuracy of a pre-trained model"
+      ],
+      "answer": "B"
+    },
+    {
+      "chapter": "Introduction to Artificial Intelligence",
+      "topic": "Applications of AI",
+      "question": "Which of the following is NOT a primary application of AI?",
+      "options": [
+        "Medical diagnosis",
+        "Self-driving cars",
+        "Financial forecasting",
+        "Manual data entry"
+      ],
+      "answer": "D"
+    }
+  ],
+  "total": 5,
+  "instructions": "Answer each question by selecting the correct option (A, B, C, or D)."
+}

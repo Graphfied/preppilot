@@ -1,0 +1,29 @@
+[project]
+name = "preppilot"
+version = "0.1.0"
+description = "PrepPilot using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.108.0,<1.0.0",
+    "dotenv>=0.9.9",
+    "fitz>=0.0.1.dev2",
+    "google-generativeai>=0.8.4",
+    "pymupdf>=1.25.4",
+    "pyyaml>=6.0.2",
+    "streamlit>=1.44.0",
+]
+
+[project.scripts]
+preppilot = "preppilot.main:run"
+run_crew = "preppilot.main:run"
+train = "preppilot.main:train"
+replay = "preppilot.main:replay"
+test = "preppilot.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
