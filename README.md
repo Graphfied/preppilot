@@ -1,54 +1,132 @@
-# Preppilot Crew
+# 🧠 PrepPilot AI - Exam Prep with Agentic AI & MCP
 
-Welcome to the Preppilot Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+PrepPilot is an AI-powered learning assistant that takes in your syllabus and gives you everything you need to prepare for exams:
 
-## Installation
+- ✅ Structured topics
+- ✅ Summarized notes
+- ✅ Auto-generated MCQs
+- ✅ Mock exam with scoring
 
-Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+All built using a modular **Crew-style agent system**, powered by **Google Gemini** and structured with **Model Context Protocol (MCP)**.
 
-First, if you haven't already, install uv:
+---
 
-```bash
-pip install uv
+## 🚀 How It Works
+
+### ✅ 1. Student Login
+- Student enters name and email to start session
+
+### 📥 2. Upload Syllabus
+- Upload a **PDF** or paste **syllabus text**
+
+### 🤖 3. Run AI Agents
+- Agents extract topics, summarize notes, and generate MCQs
+- Results shown in real-time, structured and clean
+
+### 🧪 4. Take Mock Exam
+- 5-question random MCQ test
+- Instant scoring and result breakdown
+
+### 💾 5. Export & Save
+- Results saved in `/results/`
+- All test attempts and summaries stored per session
+
+---
+
+## 🧩 Agents Architecture
+
+Each agent has its own logic + prompt loaded dynamically from `context_config.yaml` (MCP file):
+
+- **SyllabusReaderAgent** → extracts chapters + topics
+- **TopicSummarizerAgent** → bullet point notes
+- **MCQMasterAgent** → MCQs (JSON formatted)
+- **MockTesterAgent** → selects questions, scores test
+
+---
+
+## 🔧 MCP (Model Context Protocol)
+
+All prompts, model configs, and behavior are defined in:
+
+```
+src/preppilot/mcp/context_config.yaml
 ```
 
-Next, navigate to your project directory and install the dependencies:
-
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
-
-**Add your `OPENAI_API_KEY` into the `.env` file**
-
-- Modify `src/preppilot/config/agents.yaml` to define your agents
-- Modify `src/preppilot/config/tasks.yaml` to define your tasks
-- Modify `src/preppilot/crew.py` to add your own logic, tools and specific args
-- Modify `src/preppilot/main.py` to add custom inputs for your agents and tasks
-
-## Running the Project
-
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+You can edit it directly **OR** use our UI editor:
 
 ```bash
-$ crewai run
+streamlit run web/mcp_editor.py
 ```
 
-This command initializes the PrepPilot Crew, assembling the agents and assigning them tasks as defined in your configuration.
+This opens a UI to:
+- Select agent
+- Edit prompt & model name
+- Save and preview config
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+---
 
-## Understanding Your Crew
+## 🖥️ Frontend: Streamlit UI
 
-The PrepPilot Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+Main user-facing app:
+```bash
+streamlit run web/preppilot_ui.py
+```
 
-## Support
+Built with Streamlit — dynamic step-by-step flow:
+- Login form
+- PDF/text upload
+- Run agent pipeline
+- See MCQs, start test
+- Get feedback after submission
 
-For support, questions, or feedback regarding the Preppilot Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
+---
 
-Let's create wonders together with the power and simplicity of crewAI.
+## 📁 Project Structure
+
+```
+preppilot/
+├── agents/               # All AI agents (syllabus_reader, summarizer, etc)
+├── mcp/                  # MCP configuration YAML
+├── results/              # Saved sessions and test results
+├── web/                  # Streamlit UI files
+│   ├── preppilot_ui.py   # Main student flow
+│   └── mcp_editor.py     # Admin MCP prompt editor
+├── config_loader.py      # YAML loader for tasks/agents
+├── protocol.py           # MCP protocol logic
+└── context_config.yaml   # MCP prompt + model mapping
+```
+
+---
+
+## 📦 Requirements
+
+Install all dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Set up your `.env`:
+```
+GEMINI_API_KEY=your_gemini_key_here
+MODEL=gemini-1.5-flash
+```
+
+---
+
+## ✅ Ready to Use
+
+### Admin Side:
+```bash
+streamlit run web/mcp_editor.py
+```
+
+### Student/User Side:
+```bash
+streamlit run web/preppilot_ui.py
+```
+
+---
+
+Made with ❤️ by Fahad & Team
+
+> Easily editable, fully modular — use it to power your own learning flows or educational AI products.
