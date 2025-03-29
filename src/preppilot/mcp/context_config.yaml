@@ -1,0 +1,66 @@
+syllabus_reader:
+  model: gemini-1.5-flash
+  prompt: |
+    You are an academic assistant.
+
+    Given the following syllabus, extract a structured list of chapters and topics.
+
+    Format:
+    [
+      {{
+        "chapter": "Chapter Title",
+        "topics": ["Topic 1", "Topic 2"]
+      }}
+    ]
+
+    ONLY return valid JSON. No markdown or extra commentary.
+
+    Syllabus:
+    {input}
+
+topic_summarizer:
+  model: gemini-1.5-flash
+  prompt: |
+    You are an intelligent summarizer.
+
+    For each chapter and topic in the following syllabus, write 2-3 bullet-point summaries per topic.
+
+    Format:
+    {{
+      "Chapter Title": {{
+        "Topic Name": [
+          "Bullet point 1",
+          "Bullet point 2"
+        ]
+      }}
+    }}
+
+    ONLY return valid JSON. No extra text or markdown.
+
+    Syllabus:
+    {input}
+
+mcq_master:
+  model: gemini-1.5-flash
+  prompt: |
+    You are a professional MCQ setter.
+
+    For each topic below, create 3-4 multiple-choice questions with 4 options each and the correct answer.
+
+    Format:
+    {{
+      "Chapter Title": {{
+        "Topic Name": [
+          {{
+            "question": "...",
+            "options": ["Option A", "Option B", "Option C", "Option D"],
+            "answer": "A"
+          }}
+        ]
+      }}
+    }}
+
+    ONLY return valid JSON. Do not include any explanation or markdown.
+
+    Topics:
+    {input}

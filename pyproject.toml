@@ -10,6 +10,7 @@ dependencies = [
     "fitz>=0.0.1.dev2",
     "google-generativeai>=0.8.4",
     "pymupdf>=1.25.4",
+    "pytest>=8.3.5",
     "pyyaml>=6.0.2",
     "streamlit>=1.44.0",
 ]

@@ -1,0 +1,195 @@
+{
+  "syllabus": "March 2023 - Present\nCutting Edge Development Teacher Governor Sindh Initiative\nA201 Block 12 Gulistan-e-Johar Karachi, Pakistan |  graphfied@gmail.com | www.linkedin.com/in/fah\nadhghouri\nA seasoned tech professional with 7+ years of experience as a Full Stack Developer, Fivem Server Specialist, and AI Agentic Architect. Spearheaded over 1,300 successful server deployments, educated 3,500+ students in cutting-edge technologies, and consistently delivered scalable, innovative solutions across web, AI, and blockchain domains. Recognized for blending technical expertise with strategic vision to drive impactful outcomes.\nJan 2023 - Aug 2024\nAI Agentic Development\nAndroid App Developement\nInteraction Design\nModern full stack web app\nServers Management\nCloud-based AI Systems\n     AREA OF EXPERTISE\nEducation Initiative: Trained 3,500+ students for free through Pakistan\u2019s government initiative, fostering innovation and contributing to national growth.\nFreelancing Success: Generated $5,000 in the first month as a freelancer, helping build FiveM\u2019s global developer ecosystem at age 16\nAndroid App Developement\nInteraction Design\nModern full stack web app\nSpearheaded the delivery of 1 blockchain Marketplace project with a primary focus on scalability and security, Led end-to-end development for 20+ full-stack Projects ,Collaborated with cross-functional teams, reducing project delivery timelines by 15%.\nCloud-based AI Systems\n     KEY ACHIEVEMENTS\nEesigned and delivered interactive training programs, educating 3,500+ students in Generative AI, Web3, an\nd Metaverse technologies.\nFostered career-ready skills, achieving an 80% job placement rate among participants.\nMarch 2017 - Dec 2022\nUpwork (Freelancer - Game Development)\nCreated over 28 custom games with optimized user experiences, achieving a 98% client retention\n rate.\nGenerated $30,000+ in revenue through customized game development solutions.\nMarch 2020 - Dec 2022\nDiscord (Bot Developer)\nBuilt and deployed 15+ bots, automating server functionalities and boosting engagement by 30%.\nDelivered scalable bot solutions tailored to unique client needs.\nMarch 2017 - Dec 2024\nCfx.re (Fivem Server Developer)\nDelivered 1,300+ custom FiveM servers, generating over $22,000 in revenue for gaming\n communities.\nDeveloped ESX framework, enabling global adoption by FiveM developers.\nMarch 2021 - Present\nFiverr (Freelance Web Developer)\nDelivered responsive and user-friendly web applications for diverse clients.\nProvided end-to-end solutions from design to deployment.\nMaintained a consistent record of high-rated customer satisfaction.\nLanguages: Urdu(Native), English(Fluent), Japanese(Recently Start\u2019s Learning)\nCertifications: Google Analytics Certification, Google Soft Skills Program , Generative AI for\nEveryone \nAwards/Activities: I earned a 100% score in Python and Next.js coding exams at my institute, PIAIC,\nand won a random coding challenge at TECKNOFEST Pakistan. Currently, I am competing in\nLABLAB.AI hackathon challenges to further refine my skills.\nCertified AI Agentic Architect: Expertise in designing AI-powered agentic systems. LLMS/ AIML\nPIAIC (Certified Cloud Applied GenerativeAI Engineer )\nProficient in cloud-based generative AI solutions.\nProficient in cloud-based generative AI solutions.\nFine-Tuning LLMS / ML\nPIAIC (Certified AI Agentic Architect)\nCertified AI Agentic Architect: Expertise in designing AI-powered agentic systems. LLMS/ AIML\n Specialized in modern Web3 and Metaverse technologies.\n     ADDITIONAL INFORMATION\n May 2021- May 2023\nFocused on software development and computer systems.\n Specialized in modern Web3 and Metaverse technologies.\n Nov 2023- Nov 2026\nEngineering (Intermediate): Studied foundational engineering concepts\nFocused on software development and computer systems.\n2015 - 2017\nBiology (Matriculation): Completed secondary education with a focus on biology\nEngineering (Intermediate): Studied foundational engineering concepts\nLanguages: Urdu(Native), English(Fluent), Japanese(Recently Start\u2019s Learning)\nCertifications: Google Analytics Certification, Google Soft Skills Program , Generative AI for Everyone \nBwards/Activities: I earned a 100% score in Python and Next.js coding exams at my institute, PIAIC, and won a random coding challenge at TECKNOFEST Pakistan. Currently, I am competing in LABLAB.AI hackathon challenges to further refine my skills.\n",
+  "structured_topics": [
+    {
+      "chapter": "Introduction to Econometrics",
+      "topics": [
+        "What is Econometrics?",
+        "Types of Econometric Models",
+        "The Role of Econometrics in Economic Research"
+      ]
+    },
+    {
+      "chapter": "Simple Linear Regression",
+      "topics": [
+        "The Simple Linear Regression Model",
+        "Estimating the Regression Coefficients",
+        "Goodness of Fit",
+        "Hypothesis Testing",
+        "Prediction"
+      ]
+    },
+    {
+      "chapter": "Multiple Linear Regression",
+      "topics": [
+        "The Multiple Linear Regression Model",
+        "Estimating the Regression Coefficients",
+        "Goodness of Fit",
+        "Hypothesis Testing",
+        "Multicollinearity",
+        "Prediction"
+      ]
+    },
+    {
+      "chapter": "Regression Diagnostics and Model Selection",
+      "topics": [
+        "Residual Analysis",
+        "Influential Observations",
+        "Model Selection Criteria",
+        "Variable Selection Techniques"
+      ]
+    },
+    {
+      "chapter": "Qualitative Variables and Interaction Effects",
+      "topics": [
+        "Dummy Variables",
+        "Interaction Effects",
+        "Interpretation of Regression Results with Qualitative Variables"
+      ]
+    },
+    {
+      "chapter": "Nonlinear Regression Models",
+      "topics": [
+        "Log-Linear Models",
+        "Polynomial Regression",
+        "Other Nonlinear Models"
+      ]
+    },
+    {
+      "chapter": "Time Series Analysis",
+      "topics": [
+        "Stationarity",
+        "Autocorrelation",
+        "ARIMA Models",
+        "Forecasting"
+      ]
+    },
+    {
+      "chapter": "Generalized Linear Models",
+      "topics": [
+        "Introduction to Generalized Linear Models",
+        "Logistic Regression",
+        "Poisson Regression"
+      ]
+    },
+    {
+      "chapter": "Causal Inference and Econometrics",
+      "topics": [
+        "Randomized Controlled Trials",
+        "Instrumental Variables",
+        "Regression Discontinuity Design"
+      ]
+    }
+  ],
+  "summaries": {},
+  "mcqs": {
+    "Chapter Title": {
+      "Basic Algebra": [
+        {
+          "question": "Simplify the expression 2x + 3y - x + 2y",
+          "options": [
+            "x + 5y",
+            "3x + y",
+            "x - y",
+            "3x + 5y"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Solve for x: 3x + 6 = 12",
+          "options": [
+            "x = 2",
+            "x = 6",
+            "x = 18",
+            "x = -2"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What is the value of  (4 + 2) * 3?",
+          "options": [
+            "18",
+            "24",
+            "10",
+            "6"
+          ],
+          "answer": "A"
+        }
+      ],
+      "Linear Equations": [
+        {
+          "question": "What is the slope of the line y = 2x + 5?",
+          "options": [
+            "2",
+            "5",
+            "-5",
+            "-2"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Find the y-intercept of the line 3x - 2y = 6",
+          "options": [
+            "(0, -3)",
+            "(0, 3)",
+            "(3, 0)",
+            "(-3, 0)"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following represents a line parallel to y = 4x - 1?",
+          "options": [
+            "y = 4x + 3",
+            "y = -1/4x + 2",
+            "y = 1/4x -1",
+            "y = -4x - 1"
+          ],
+          "answer": "A"
+        }
+      ],
+      "Data Analysis": [
+        {
+          "question": "The mean of the numbers 2, 4, 6, 8 is:",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "10"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What is the median of the data set: 1, 3, 5, 7, 9?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "3"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "In a data set, the mode is the:",
+          "options": [
+            "Most frequent value",
+            "Middle value",
+            "Average value",
+            "Largest value"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "If the range of a dataset is 10 and the lowest value is 2, what is the highest value?",
+          "options": [
+            "12",
+            "8",
+            "5",
+            "20"
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  }
+}
